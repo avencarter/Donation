@@ -10,7 +10,7 @@ def show_homepage():
 
 def donate(username):
     donation_amt = input("Enter amount to donate: ")
-    donation_string = "{} donated $1000.0".format(username)
+    donation_string = "{} donated ${}".format(username,donation_amt)
     print("Thank you for the donation!")
     return donation_string
 
